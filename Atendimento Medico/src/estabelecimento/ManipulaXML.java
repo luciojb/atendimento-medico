@@ -40,7 +40,6 @@ public class ManipulaXML {
 		
 		for (int x = 0; x < Pessoas.size(); x++){
 			Element pessoa = new Element("pessoa");
-			
 			pessoa.setAttribute("codigo", String.valueOf(Pessoas.get(x).getCodigo()));
 			
 			Element nome = new Element("nome");
