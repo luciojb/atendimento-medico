@@ -19,7 +19,6 @@ public class ExecutaSimulacao {
 		List<Medico> medicos = ManipulaXML.lerXMLMedicos();
 		List<Atendimento> atendidos = ManipulaXML.lerXMLAtendimentos();
 		
-		
 		//Após ser definida a prioridade do paciente, ele automaticamente estará em uma fila de espera.
 		
 		String[] menuPrincipal = {"1- Definir prioridade do paciente e adicioná-lo à fila", "2- Mostrar a fila", "3- Atender paciente", 
